@@ -1,0 +1,7 @@
+web:
+  url: "http://10.0.0.134"
+  port: ":8011"
+
+login:
+  user: "cwms"
+  password: "P@88w0rd"
