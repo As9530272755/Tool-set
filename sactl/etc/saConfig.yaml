@@ -1,0 +1,10 @@
+kubeconfig:
+  path: ./etc/config
+
+log:
+  filename: log/sactl.log
+  max_age: 30
+  max_size: 10
+  max_backups: 14
+  compress: false
+  level: info
