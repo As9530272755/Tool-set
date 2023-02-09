@@ -1,7 +1,7 @@
 Use links: http://39.105.137.222:8089/?p=2849
 
 
-# 验证
+# 1 验证
 
 1.创建 ns 和 pod
 
@@ -19,7 +19,7 @@ nginx   0/1     ContainerCreating   0          2m20s
 
 
 
-## 9.1 验证 role 绑定 admin
+## 1.1 验证 role 绑定 admin
 
 1.创建一个 admin 的 role ，因为刚才在代码中写死了需要绑定 role 为 admin
 
@@ -51,7 +51,7 @@ sa1 Rolebinding Create Success!
 
 
 
-## 9.2 验证基于 SA 获取 POD
+## 1.2 验证基于 SA 获取 POD
 
 1 通过程序来获取 pod
 
@@ -64,7 +64,7 @@ NameSpace：dev  Pod：nginx
 
 
 
-### 9.3 验证基于 Token 获取 Pod 信息
+### 1.3 验证基于 Token 获取 Pod 信息
 
 通过 token 获取到对应的 Pod 信息
 
