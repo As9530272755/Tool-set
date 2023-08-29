@@ -1,0 +1,11 @@
+prometheus:
+  addr: http://10.0.0.142
+  port: 9090
+
+log:
+  filename: log/query.log
+  max_age: 14
+  max_size: 10
+  max_backups: 14
+  compress: false
+  level: debug
