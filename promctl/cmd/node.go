@@ -35,7 +35,7 @@ var nodeCmd = &cobra.Command{
 		1.输入 node 名查询指定 node 是否存活
 		2.输入 node 名查询指定 node cpu 使用率百分比
 		3.输入 node 名查询指定 node mem 使用率百分比
-  示例: promctl node -Flags --n node:9100 --s 起始时间 --e 结束时间`,
+  示例: promctl node -Flags --n "node:9100" --s "起始时间" --e "结束时间"`,
 	Run: func(cmd *cobra.Command, args []string) {
 		UpStatus, _ := cmd.Flags().GetBool("up")
 		if UpStatus {

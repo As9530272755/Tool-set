@@ -36,7 +36,7 @@ var podCmd = &cobra.Command{
 		1.输入 pod 名查询指定 pod 状态
 		2.输入 pod 名查询指定 pod cpu 的运行态使用情况
 		3.输入 pod 名查询指定 pod mem 的运行态使用情况
-  示例: promctl pod -Flags --n podName --s 起始时间 --e 结束时间`,
+  示例: promctl node -Flags --n "PodName" --s "起始时间" --e "结束时间"`,
 	Run: func(cmd *cobra.Command, args []string) {
 		PodStatus, _ := cmd.Flags().GetBool("up")
 		if PodStatus {

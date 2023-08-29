@@ -33,7 +33,7 @@ var queryCmd = &cobra.Command{
 	Use: "query",
 	Short: `该命令对应 promQL 全量语句查询	`,
 	Long: `该命令对应 promQL 全量语句查询
-  示例: promctl query --q 查询语句 --s 起始时间 --e 结束时间`,
+  示例: promctl query --q "查询语句" --s "起始时间" --e "结束时间"`,
 	Run: func(cmd *cobra.Command, args []string) {
 		AllQuery(allquery, allstartTime, allendTime)
 	},
