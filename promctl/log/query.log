@@ -1,0 +1,5 @@
+time="2023-08-29T17:36:25+08:00" level=debug msg="查询结果" 指标="up{instance=\"10.0.0.131:30080\", job=\"kube-state-metrics\"}" 数据=1
+time="2023-08-29T17:36:25+08:00" level=debug msg="查询结果" 指标="up{instance=\"10.0.0.131:6443\", job=\"kubernetes-apiservers-monitor\"}" 数据=1
+time="2023-08-29T17:36:25+08:00" level=debug msg="查询结果" 指标="up{instance=\"go:9100\", job=\"kubernetes-node\"}" 数据=1
+time="2023-08-29T17:36:25+08:00" level=debug msg="查询结果" 指标="up{instance=\"localhost:9090\", job=\"prometheus\"}" 数据=1
+time="2023-08-29T17:36:25+08:00" level=debug msg="查询结果" 指标="up{instance=\"node3:9100\", job=\"kubernetes-node\"}" 数据=1
